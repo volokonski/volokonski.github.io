@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------------------
+    * Css override for mobile viewports
+--------------------------------------------------------------------------*/
+	@media only screen and (min-width: 768px) and (max-width: 1110px) {
+		#section-invite {
+			background-size: 120%!important;
+		}
+		
+		#section-info {
+			background-size: auto 100%;
+			background-position: 50% 0;
+		}
+		
+		#section-info .about {
+			font-size: 30px;
+			line-height: 35px;
+		}
+		
+		#section-info .about2 {
+			font-size: 26px;
+		}
+		
+	}
+	
+	@media only screen and (min-width: 1080px) and (max-width: 1122px){
+		#section-info {
+			background-size: 110% ;
+		}
+	}
+/* #Tablet (Portrait)
+================================================== */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        /* No specific adjustment for tablet viewports */
+		
+		#section-topbar {
+			height: 39px;
+		}
+		
+		#section-topbar ul#nav a {
+			display: block;
+			padding: 10px 7px;
+			font: 15px/19px 'CuprumBold', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-decoration: none;
+		}
+		
+		.client .low {
+			margin-top: 6px;
+		}
+		
+		.quote table {
+			width: 70%;
+		}
+		
+		#section-footer p#copytext {
+			color: #777;
+			margin: 15px 0;
+		}
+    }
+
+	
+/*  #Mobile (Landscape)
+================================================== */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#section-invite {
+			background-size: 140%!important;
+		}
+	}
+	
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+       	#section-topbar {
+			background: transparent;
+			border-top: #edf1f4 solid 1px;
+		}
+		
+        #section-topbar ul#nav {
+			display: none!important;
+		}
+		
+		#section-topbar .mob_menu {
+			display: block!important;
+		}
+		
+		p.headline {
+			margin: 10px 0;
+			font-size: 18px!important;
+			line-height: 22px;
+		}
+		
+		#section-invite {
+			background-size: 160%;
+		}
+		
+		#section-invite img { 
+			display: block;
+			width: 30%;	
+			margin: 30% auto;
+		}
+		
+		.divider .red-box {
+			width: 20%;
+		}
+		
+		.quote .headline {
+			margin: 0 5px;
+		}
+		
+		.quote table {
+			width: 100%;
+		}
+		
+		.client{
+			padding: 60px 0 30px 0;
+		}
+		
+		.client .client_logo {
+			width: 50%;
+			margin-bottom: 10px;
+		}
+		
+		.quote .headline {
+			font-size: 16px!important;
+		}
+		
+		#section-client1, #section-client2, #section-client3, #section-client4, #section-client5, #section-client6, #section-client7, #section-client8, #section-client9, #section-client10, #section-contact{
+			background-size:300%;
+		}
+		
+		#section-info {
+			background-size: auto 100%;
+			background-position: 60% 0;
+		}
+		
+		#section-info .about {
+			font-size: 24px;
+			line-height: 26px;
+		}
+		
+		#section-info .about2 {
+			font-size: 22px;
+			line-height: 24px;
+		}
+		
+		#section-info p {
+			text-align: center;
+		}
+		
+		#section-info2 img {
+			margin: 10px 0 20px 0;
+		}
+		
+		#section-contact img {
+			margin-bottom: 20px;
+		}
+		
+		#section-sponsors img {
+            max-width: 60%;
+            margin-bottom: 30px;
+        }
+    }
+	
