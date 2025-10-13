@@ -2,6 +2,10 @@
     * Css override for mobile viewports
 --------------------------------------------------------------------------*/
 	@media only screen and (min-width: 768px) and (max-width: 1110px) {
+        .zagolovka {
+            font-size: 36px;
+            line-height: 46px;
+        }
 		#section-invite {
 			background-size: 120%!important;
 		}
@@ -12,12 +16,12 @@
 		}
 		
 		#section-info .about {
-			font-size: 30px;
-			line-height: 35px;
+			font-size: 26px;
+			line-height: 26px;
 		}
 		
 		#section-info .about2 {
-			font-size: 26px;
+			font-size: 18px;
 		}
 		
 	}
@@ -74,6 +78,12 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+
+        .zagolovka {
+            font-size: 26px;
+            line-height: 34px;
+        }
+
        	#section-topbar {
 			background: transparent;
 			border-top: #edf1f4 solid 1px;
@@ -138,13 +148,13 @@
 		}
 		
 		#section-info .about {
-			font-size: 24px;
+			font-size: 26px;
 			line-height: 26px;
 		}
 		
 		#section-info .about2 {
-			font-size: 22px;
-			line-height: 24px;
+			font-size: 18px;
+			line-height: 26px;
 		}
 		
 		#section-info p {

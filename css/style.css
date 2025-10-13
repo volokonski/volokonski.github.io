@@ -5,7 +5,7 @@
 body {
 	color: #333;
 	background: #fff;
-	font: normal 16px/28px 'Cuprum', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 18px/28px 'Cuprum', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
@@ -64,6 +64,26 @@ small { font-size: 80%; }
          url('../fonts/CuprumBoldItalic.svg#CuprumBoldItalic') format('svg');
 }
 
+@font-face {
+    font-family: 'Eastman-Black';
+    src: url('../fonts/Eastman-Black.woff2') format('woff2'),
+    url('../fonts/Eastman-Black.woff') format('woff'),
+    url('../fonts/Eastman-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.zagolovka {
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 54px;
+    margin-bottom:6px;
+    border: 0px solid red;
+    color: #333;
+    text-transform: uppercase;
+}
 
 /*--------------------------------------------------------------------------
 	3. Sections
@@ -88,7 +108,7 @@ p.headline {
 
 p.desc{
 	color: #777;
-	font: 15px/18px 'CuprumItalic', Georgia, serif;
+	font: 18px/26px 'CuprumItalic', Georgia, serif;
 	text-align: left;
 	margin-top: 7px;
 }
@@ -129,17 +149,17 @@ img { max-width: 100%; }
 	/*	In mobile viewports, the list menu is converted to "select" element via javascript
 		https://github.com/lukaszfiszer/selectnav.js  */
 	.selectnav { display: none; }
-	
+
 	#section-topbar .mob_menu {
 		display: none!important;
 	}
-	
+
 	#section-topbar ul#nav {
 		display: block;
 		position: relative;
 		width: 100%;
 		margin: 0 auto;
-	
+
 	}
 
 	#section-topbar ul#nav > li{
@@ -155,7 +175,7 @@ img { max-width: 100%; }
 	  text-decoration: none;
 	}
 
-	
+
 		#section-topbar ul#nav a:hover {
 		  background: #e30e12;
 		  text-decoration: none;
@@ -166,17 +186,17 @@ img { max-width: 100%; }
 		   background: #e30e12;
 		   color: #fff;
 		}
-		
+
 		#section-topbar .mob_menu {
 			width: 100%;
 		}
-		
+
 		#section-topbar .menu_icon {
 			display: block;
 			float: left;
 			width: 25%;
 		}
-		
+
 		#section-topbar .menu_icon a {
 			display: block;
 			text-align: center;
@@ -187,23 +207,23 @@ img { max-width: 100%; }
 			border-bottom: 1px solid #ccc;
 			color: #fff;
 		}
-		
+
 		#section-topbar .menu_icon  a.withbrd {
 			border-right: 1px solid #ccc;
 		}
-		
+
 	/*	#section-topbar .menu_icon a:hover {
 			background: #e30e12;
 		    text-decoration: none;
 		    color: #fff;
 		}
-		
-	*/	
-		
+
+	*/
+
 		#section-topbar #next {
 			cursor: pointer;
 		}
-		
+
 		.icon-pulse {
 		  display: inline-block;
 		  -moz-animation: pulse 4s infinite linear;
@@ -237,14 +257,14 @@ img { max-width: 100%; }
 		  50% { opacity: 0.8; margin-top:0px; }
 		  20% { opacity: 1; margin-top:2px; }
 		}
-	
+
 	/* -----------------Client styles-----------*/
 
-	
+
 	/*---------------------------------------------------
 		3.2 invite
 	---------------------------------------------------*/
-	
+
 	#section-invite {
 		color: #222;
 		/* The background image used in this template is 1980 by 650 pixels */
@@ -255,29 +275,29 @@ img { max-width: 100%; }
 	}
 
 		/* Site Title */
-		#section-invite img { 
+		#section-invite img {
 			display: block;
-			width: 20%;	
-			margin: 20% auto;
+			width: 22%;
+			margin: 22% auto;
 		}
-		 
-	
-	
+
+
+
 	/*---- Divider with red box inside-----------------*/
 	.divider {
 		width: 100%;
 		height: auto;
 		background: #edf1f4;
 		}
-		
+
 		.divider .red-box {
 			width: 10%;
 			height: 4px;
 			background: #e30e12;
 			margin: 0 auto;
 		}
-	
-	
+
+
 	/*--- Common class for client's zone-----------------*/
 	.client {
 	color: #222;
@@ -288,12 +308,12 @@ img { max-width: 100%; }
 	.client .client_logo {
 	width: 100%;
 	}
- 
-	
+
+
 	.client .low {
 		margin-top: 7px;
 	}
-	
+
 	.client .client_title {
 		width: 100%;
 	}
@@ -306,7 +326,7 @@ img { max-width: 100%; }
 	.client a.client_link:hover {
 		color: #111;
 	}
-	
+
 	.client .eight img {
 		margin-top: 7px;
 	}
@@ -322,30 +342,30 @@ img { max-width: 100%; }
 	.quote {
 		padding: 20px 0;
 	}
-	
+
 	.quote table {
 		margin: 0 auto;
 		width: 60%;
 		border: none;
 	}
-	
+
 	.quote table td {
 		text-align: center;
 	}
-	
+
 	.quote table td.pic {
 		width: 10%;
 	}
-	
+
 	.quote table td.text {
 		width: 80%;
 	}
-	
+
 	.quote .headline {
 		text-align: center;
 		margin: 10px 5px;
 	}
-	
+
 	.quote a.client_link {
 		color: #e30e12;
 	}
@@ -358,7 +378,7 @@ img { max-width: 100%; }
 
 		* Contains an example article about the event
 	---------------------------------------------------*/
-	
+
 	#section-client1 {
 		background: #fcfcfc url(../images/bg/italic_bg02.svg);
 		background-size: 100%;
@@ -368,50 +388,50 @@ img { max-width: 100%; }
 		background: #fcfcfc url(../images/bg/italic_bg03.svg);
 		background-size: 100%;
 	}
-		
+
 	#section-client3 {
 		background: url(../images/bg/italic_bg04.svg);
 		background-size: 100%;
 	}
-	
+
 	#section-client4 {
 		background: url(../images/bg/italic_bg05.svg);
-		background-size: 100%;	 
-	}	
-		
+		background-size: 100%;
+	}
+
 	#section-client5 {
 		background: url(../images/bg/italic_bg06.svg);
-		background-size: 100%;	 
-	}	
+		background-size: 100%;
+	}
 
 	#section-client6 {
 		background: url(../images/bg/italic_bg07.svg);
-		background-size: 100%;	 
-	}	
-	
+		background-size: 100%;
+	}
+
 	#section-client7 {
 		background: url(../images/bg/italic_bg08.svg);
-		background-size: 100%;	 
-	}	
-	
+		background-size: 100%;
+	}
+
 	#section-client8 {
 		background: url(../images/bg/italic_bg09.svg);
-		background-size: 100%;	 
-	}	
-	
+		background-size: 100%;
+	}
+
 	#section-client9 {
 		background: url(../images/bg/italic_bg10.svg);
-		background-size: 100%;	 
-	}	
-	
+		background-size: 100%;
+	}
+
 	#section-client10 {
 		background: url(../images/bg/italic_bg11.svg);
-		background-size: 100%;	 
+		background-size: 100%;
 		border:none;
-	}	
-		
-		
-		
+	}
+
+
+
 	/*---------------------------------------------------
 		3.4 Info
 	---------------------------------------------------*/
@@ -420,26 +440,26 @@ img { max-width: 100%; }
 		background-size: 100%;
 		padding: 90px 0 20px 0;
 	}
-	
+
 	#section-info .about, #section-info .about2 {
-		font: normal 35px/40px 'Cuprum', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: normal 26px/26px 'Cuprum', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-align: center;
 		color: #fff;
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
 	}
-	
+
 	#section-info .about2 {
-		font-size: 28px;	
+		font-size: 18px;
 	}
-	
+
 	#section-info .fa-cubes {
 		margin: 0 0 4px 2px;
 	}
-	
+
 	#section-info .fa-cogs {
 		margin: 1px 5px 0 0;
 	}
-	
+
 	#section-info .headline {
 		color: #fff;
 	}
@@ -449,9 +469,9 @@ img { max-width: 100%; }
 		font-size: 50px;
 		line-height: 100px;
 		color: #fff;
-		width: 100%;	
+		width: 100%;
 	}
-	
+
 	#section-info .brd {
 		border: 2px solid #fff;
 		width: 100px;
@@ -460,78 +480,78 @@ img { max-width: 100%; }
 		border-radius: 50%;
 		margin-bottom: 20px;
 	}
-	
+
 	#section-info .brd:hover{
 		background: rgba(255,255,255, 0.7);
 	}
-	
+
 	#section-info i:hover {
 		color: #e30e12;
 	}
-	
+
 	#section-info img {
 		width: 100%;
 	}
 	#section-info p {
 		color: #fff;
 	}
-	
 
-	
-	
+
+
+
 	#section-info2 {
 		background: #e30e12;
 		padding: 60px 0 40px 0;
 	}
-	
+
 	#section-info2 .info {
 		color: #fff;
-		font-size: 16px;
-		line-height: 20px;
+		font-size: 18px;
+		line-height: 26px;
 	}
-	
+
 	#section-info2 .info  span{
-		font-family: 'CuprumBoldItalic';
+		font-family: 'CuprumItalic';
 	}
 	#section-info2 img {
 		width: 100%;
 	}
 	a.section-info2-a {
-		border-bottom:1px dashed white; 
+		border-bottom:1px dashed white;
 		color:#fff!important;
 	}
 	a.section-info2-a:hover {
-		border-bottom:0px dashed white; 
+		border-bottom:0px dashed white;
 		color:#eee;
-	}	
+	}
 
-	
+
 	/*---------------------------------------------------
 		3.5 Contact
 	---------------------------------------------------*/
-	
+
 	#section-contact {
 		color: #fff;
 		background: #fff url(../images/bg/italic_el06.svg) no-repeat;
 		background-size: 100%;
 		padding: 90px 0 20px 0;
 	}
-		
+
 		#section-contact .connect {
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
-	
+
 		#section-contact p {
 			color: #fff;
 		}
-		
+
 		#section-contact .continfo {
 			font-size: 24px;
-			margin-bottom: 15px;	
-			color: #fff;			
+			margin-bottom: 15px;
+			color: #fff;
 		}
-		
+
 		#section-contact a[href^=tel]{
 			font-size: 24px;
 			margin-bottom: 15px;
